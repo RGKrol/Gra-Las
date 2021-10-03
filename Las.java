@@ -65,16 +65,11 @@ public class Las {
             metoda przyjmuje:
             String  - opis możliwych wyjść z polany zależny od
                         --- być może z tego zrezygnuję gdyż opisy będą przechowywane gdzie indziej
-<<<<<<< HEAD
                         --- docelowo teksty będą przechowywane w bazie danych
-            int     - poprzednia pozycja gracza (z kąd przyszedł)
+            int     - poprzednia pozycja gracza (skąd przyszedł)
             int     - aktualna pozycja gracza (gdzie doszedł)
             w zależności gdzie jest gracz i jak tam dotarł opisy będą różne !!!
-=======
-            int     - poprzednia pozycja gracza (z kąd przyszedł)
-            int     - aktualna pozycja gracza (gdzie doszedł)
-            w zależności gdzie jest gracz i jak tam doszedł opisy będą różne !!!
->>>>>>> github/master
+           
             opis danej lokacji będzie stały ale
                 opis możliwych wyjść będzie różny bo w końcu wchodzimy do lokacji z różnej strony
          */
