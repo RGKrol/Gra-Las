@@ -9,13 +9,13 @@ gra ma tylko/aż pomóc Mi nauczyć się:
 
 mapa: 
 
-&&&&&&&&&&&&&&&&&&&||&&&&&&&&&&&&&&&& 
-&&&&&&&&&&&&&/-----03----\&&&&&&&&&&&
-&&&&&&&&&&&&/&&&&&&&&&&&&&\&&&&&&&&&& 
-&&&&&&&&&& 02-------------01 &&&&&&&& 
-&&&&&&&&&&&&\&&&&&&&&&&&&&/&&&&&&&&&&
-&&&&&&&&&&&&&\------s-----/&&&&&&&&&&
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&||&&&&&&&&&&&&&&&&</br>
+&&&&&&&&&&&&&/-----03----\&&&&&&&&&&&</br>
+&&&&&&&&&&&&/&&&&&&&&&&&&&\&&&&&&&&&&</br>
+&&&&&&&&&& 02-------------01 &&&&&&&&</br>
+&&&&&&&&&&&&\&&&&&&&&&&&&&/&&&&&&&&&&</br>
+&&&&&&&&&&&&&\------s-----/&&&&&&&&&&</br>
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&</br>
 
 legenda: 
 s           - polana startowa 
@@ -28,7 +28,7 @@ s           - polana startowa
 
 UWAGA: 
 gra ma już swoją "grywalną" postać przygotowaną w języku "C" 
-można ją pobrać i sprawdzić jak ma wyglądać "prawie" gotowa postać 
+można ją pobrać i sprawdzić jak ma wyglądać "prawie" gotowa postać.
 Jeżeli chcesz wykożystać ja w swoim projekcie proszę o podanie źródła :-) 
 Robert GK 
 PS.  
