@@ -7,20 +7,22 @@ gra ma tylko/aż pomóc Mi nauczyć się:
 - nauczyć się prawidłowych, przejrzystych technik programistycznych 
 - poznać techniki/środowiska "około programistyczne", jak np. git'a, githuba 
 
-- mapa: 
+mapa: 
+
 &&&&&&&&&&&&&&&&&&&||&&&&&&&&&&&&&&&& 
-- #############/-----03----\########### 
-- ############/#############\########## 
-- ###########02-------------01######### 
-- ###########\##############/########## 
-- ############\------s-----/########### 
-- ##################################### 
-- legenda: 
-- s           - polana startowa 
-- 01, 02, 03  - pozostałe polany 
-- -, /, \,    - drogi przez las 
-- ||          - droga wyjściowa z lasu 
-- #           - las = drzewa/krzaki/siedliska dzikich zwierząt :-D 
+&&&&&&&&&&&&&/-----03----\&&&&&&&&&&&
+&&&&&&&&&&&&/&&&&&&&&&&&&&\&&&&&&&&&& 
+&&&&&&&&&& 02-------------01 &&&&&&&& 
+&&&&&&&&&&&&\&&&&&&&&&&&&&/&&&&&&&&&&
+&&&&&&&&&&&&&\------s-----/&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+legenda: 
+s           - polana startowa 
+01, 02, 03  - pozostałe polany 
+-, /, \,    - drogi przez las 
+||          - droga wyjściowa z lasu 
+&           - las = drzewa/krzaki/siedliska dzikich zwierząt :-D 
 
 
 
