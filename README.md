@@ -1,4 +1,12 @@
 # Gra-Las
+gra pierwotnie przygotowywana jest w trybie tekstowym, ale planuję dodać kilka elementów graficznych, dźwiękowych, i tp. 
+
+gra ma tylko/aż pomóc Mi nauczyć się: 
+- programować w javie 
+- przygotować gotowy projekt do publikacji i go opublikować 
+- nauczyć się prawidłowych, przejrzystych technik programistycznych 
+- poznać techniki/środowiska "około programistyczne", jak np. git'a, githuba 
+
 - mapa: 
 - ###################||################ 
 - #############/-----03----\########### 
@@ -14,13 +22,7 @@
 - ||          - droga wyjściowa z lasu 
 - #           - las = drzewa/krzaki/siedliska dzikich zwierząt :-D 
 
-gra pierwotnie przygotowywana jest w trybie tekstowym, ale planuję dodać kilka elementów graficznych, dźwiękowych, i tp. 
 
-gra ma tylko/aż pomóc Mi nauczyć się: 
-- programować w javie 
-- przygotować gotowy projekt do publikacji i go opublikować 
-- nauczyć się prawidłowych, przejrzystych technik programistycznych 
-- poznać techniki/środowiska "około programistyczne", jak np. git'a, githuba 
 
 UWAGA: 
 gra ma już swoją "grywalną" postać przygotowaną w języku "C" 
