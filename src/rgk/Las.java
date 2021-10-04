@@ -7,7 +7,7 @@ public class Las {
         System.out.println("\t\t\t\tLAS\n");
         System.out.println("W grze zostajesz postaciom, która zgubiła się w lesie.");
         System.out.println("Twoje zadanie wydaje się tylko z pozoru łatwe:");
-        System.out.println("\t\t--- Wróć do domu ---\n\n");
+        System.out.println("\t\t--- Wróć do domu ---\n\n\n");
     }
     public static char Wybor(String pytanie, String mozliweOdpowiedzi){
         while(true){

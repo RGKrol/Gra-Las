@@ -12,6 +12,7 @@ public class Postac {
         this.pozycjaStara = this.pozycjaAktualna;
         this.pozycjaAktualna = nowaPozycjaPostaci;
     }
+    
     public int pokazPozycjeAktualna(){  return this.pozycjaAktualna;}
     public int pokazPozycjeStara(){     return this.pozycjaStara;}
 

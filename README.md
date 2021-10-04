@@ -1,11 +1,11 @@
 # Gra-Las
-gra pierwotnie przygotowywana jest w trybie tekstowym, ale planuję dodać kilka elementów graficznych, dźwiękowych, i tp. </br>
+Gra pierwotnie przygotowywana jest w trybie tekstowym, ale planuję dodać kilka elementów graficznych, dźwiękowych, itp. </br>
 
-gra ma tylko/aż pomóc Mi nauczyć się: 
+Projekt ma tylko / aż pomóc Mi nauczyć się: 
 - programować w javie 
 - przygotować gotowy projekt do publikacji i go opublikować 
-- nauczyć się prawidłowych, przejrzystych technik programistycznych 
-- poznać techniki/środowiska "około programistyczne", jak np. git'a, githuba 
+- nauczyć prawidłowych, przejrzystych technik programistycznych 
+- poznać techniki / środowiska "około programistyczne", jak np. git'a, githuba 
 
 mapa: </br>
 
@@ -20,17 +20,25 @@ mapa: </br>
 legenda: </br>
 s           - polana startowa         </br>
 01, 02, 03  - pozostałe polany        </br>
-- , / , \ ,    - drogi przez las         </br>
+/ , - , \   - drogi przez las         </br>
 ||          - droga wyjściowa z lasu  </br>
 &           - las = drzewa/krzaki/siedliska dzikich zwierząt :-D </br></br></br>
+opis lokacji: </br>
+&nbsp; s&nbsp;: polana z ogniskiem (startowa) </br>
+01 : polana z drzewem (dębem) po środku </br>
+02 : polana z pagórkiem </br>
+03 : polana po wyrębie lasu </br></br>
 
 
-
-UWAGA: 
-gra ma już swoją "grywalną" postać przygotowaną w języku "C", </br>
+UWAGA: </br>
+Gra ma już swoją "grywalną" postać przygotowaną w języku "C", </br>
 można ją pobrać i sprawdzić jak ma wyglądać "prawie" gotowa postać.</br>
-Jeżeli chcesz wykożystać ja w swoim projekcie proszę o podanie źródła :-) </br>
-Robert GK </br>
+Jeżeli chcesz wykorzystać ja w swoim projekcie proszę o podanie źródła :-) </br>
+Robert G. Król </br>
+e-mail: rgkrol@gmail.com </br>
+</br>
 PS.  </br>
-Aby uruchomić grę pod linuxem wystarczy pobrać plik "a.out" zmienić mu bit uruchamialności i już. </br>
-Pod windowsem i OSx'em trzeba ją zkompilować poleceniem "make" i wtedy dostajemy plik "las" który jest już uruchamialny. 
+Aby uruchomić grę: </br>
+- pod Linuxem wystarczy pobrać plik "a.out" zmienić mu bit uruchamialności i już. </br>
+- pod Windowsem i OSx'em trzeba ją skompilować poleceniem "make" i wtedy dostajemy plik "las" który jest już uruchamialny. </br>
+- pod Windowsem należy dodać do pliku uruchamialnego "las" rozszerzenie ".exe".
