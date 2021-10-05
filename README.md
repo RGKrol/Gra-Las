@@ -6,7 +6,7 @@ Projekt ma tylko / aż pomóc Mi nauczyć się:
 - przygotować gotowy projekt do publikacji i go opublikować 
 - nauczyć prawidłowych, przejrzystych technik programistycznych 
 - poznać techniki / środowiska "około programistyczne", jak np. git'a, githuba 
-
+</br>
 mapa: </br>
 
 &&&&&&&&&&&&&&&&&||&&&&&&&&&&&&&&&</br>

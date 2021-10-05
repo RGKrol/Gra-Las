@@ -38,6 +38,7 @@ public class Las {
             }
         }
     }
+
     public static void WprowadzenieDlaNowejPostaci(char plec){
 
             TekstDoPuci(plec, "mObudziłeś się #kObudziłąś się #iBudzisz się ");
