@@ -1,20 +1,20 @@
 package rgk;
 
 public class Postac {
-    public char plec;
-    private int pozycjaAktualna, pozycjaStara;
+    public char gender;
+    private int positionCurrent, positionOld;
 
     public Postac (){  //konstruktor bezargumentowy
-        pozycjaAktualna = pozycjaStara = 0;
+        positionCurrent = positionOld = 0;
+    }
+                //ustawienie nowej pozycji gracza
+    public void setPozycja (int newGamerPossition){
+        this.positionOld = this.positionCurrent;
+        this.positionCurrent = newGamerPossition;
     }
 
-    public void setPozycja (int nowaPozycjaPostaci){
-        this.pozycjaStara = this.pozycjaAktualna;
-        this.pozycjaAktualna = nowaPozycjaPostaci;
-    }
 
-
-    public int pokazPozycjeAktualna(){  return this.pozycjaAktualna;}
-    public int pokazPozycjeStara(){     return this.pozycjaStara;}
+    public int getPlayerPositionCurrent(){  return this.positionCurrent;}   //podaje aktualną pozycję gracza
+    public int getPlayerPositionOld(){      return this.positionOld;}       //podaje poprzednią pozycję gracza
 
 }

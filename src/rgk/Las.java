@@ -1,53 +1,64 @@
 package rgk;
 
+import org.junit.jupiter.api.Test;
+
+// to jest biblioteka do robienia testów jednostkowych
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class Las {
 
-    public static void Wstepniak (){
+    @Test
+    void ICheckTheSelectionMethod (){
+        assertEquals('m',Selection("","mki") );
+        //assertEquals(1, 1); //nie wiem co sprawdzić - skoro ta metoda ma reagować na poczynania użytkownika ;-(
+    }
+
+    public static void Introduction (){
         System.out.println("Witaj w super trudnej i wymagającej grze \n");
         System.out.println("\t\t\t\tLAS\n");
         System.out.println("W grze zostajesz postaciom, która zgubiła się w lesie.");
         System.out.println("Twoje zadanie wydaje się tylko z pozoru łatwe:");
         System.out.println("\t\t--- Wróć do domu ---\n\n\n");
     }
-    public static char Wybor(String pytanie, String mozliweOdpowiedzi){
+    public static char Selection(String pytanie, String mozliweOdpowiedzi){
         while(true){
             System.out.println(pytanie);
             //nie wiem jak zapytać o odpowiedź wiec na razie założę odpowiedź
-            String odpGracza = "m";
+            String gamerAns = "m";
 
-            if (odpGracza.length()!=1){
+            if (gamerAns.length()!=1){
                 System.out.println("Poproszę o odpowiedź w postaci jednej litery\n");
                 continue;
             }
 
-            for(char odpPojedyncza : mozliweOdpowiedzi.toCharArray()){
-                if(odpPojedyncza == odpGracza.toCharArray()[0])
-                    return odpGracza.toCharArray()[0];
+            for(char simpleAns : mozliweOdpowiedzi.toCharArray()){
+                if(simpleAns == gamerAns.toCharArray()[0])
+                    return gamerAns.toCharArray()[0];
             }
         }
     }
-    public static void TekstDoPuci(char plec, String tekstDoWyswietlenia){
+    public static void GenderSpecificText (char gender, String textToDisplay){
         // rozdzielenie tekstu na tablicę tak aby poszczególne puci były rozdzielone
-        String [] t = tekstDoWyswietlenia.split("#");
+        String [] t = textToDisplay.split("#");
 
         // wyłapuję interesujący mnie tekst w zależności od puci gracza
-        for (String tekst : t){
-            if (tekst.toCharArray()[0] == plec) {
-                System.out.print(tekst.substring(1, tekst.length()));
+        for (String text : t){
+            if (text.toCharArray()[0] == gender) {
+                System.out.print(text.substring(1, text.length()));
                 break;  //po co marnować czas skoro interesuje mnie jedna odpowiedź
             }
         }
     }
 
-    public static void WprowadzenieDlaNowejPostaci(char plec){
+    public static void IntroductionForTheNewCharacter(char gender){
 
-            TekstDoPuci(plec, "mObudziłeś się #kObudziłąś się #iBudzisz się ");
+            GenderSpecificText(gender, "mObudziłeś się #kObudziłąś się #iBudzisz się ");
         System.out.println("w środku lasu. Pamiętasz to miejsce.");
         System.out.print("Dobrze się tu ");
-            TekstDoPuci(plec, "mbawiłeś#kbawiłaś#ibawiłaś");
+            GenderSpecificText(gender, "mbawiłeś#kbawiłaś#ibawiłaś");
         System.out.println(" wczorajszej nocy. ");
         System.out.print("Ale dlaczego ");
-            TekstDoPuci(plec, "mzasnąłeś?#kzasnełaś?#izmużył  oczy?");
+            GenderSpecificText(gender, "mzasnąłeś?#kzasnełaś?#izmużył  oczy?");
         System.out.println(" i dlaczego ci idioci byli tak bezczelni, że nie zabrali Cię ze sobą?\n");
 
         System.out.println("No dobra, stało się. Trzeba wrócić do domu.");
@@ -83,19 +94,19 @@ public class Las {
 ///////////////////////////////////////////// main /////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
     public static void main(String[] args) {
-        Wstepniak();
-        Postac postac = new Postac();
+        Introduction();
+        Postac player = new Postac();
         //wybór puci postaci oparty na uniwersalnej metodzie wyboru
         //nie wiem obecnie jak przekazać takie długie treści do metody i ładnie to przedstawić w kodzie
         //
-        String tekstDoWyswietlenia = "Potrzebuję znać twoją płeć,\n";
-                tekstDoWyswietlenia+="aby wiedzieć jak się do Ciebie zwracać.\n";
-                tekstDoWyswietlenia+="Proszę wybierz (m) jeżeli jesteś mężczyzną, (k) jeżeli jesteś kobietą,\n";
-                tekstDoWyswietlenia+="(i) jeżeli nie identyfikujesz się z pozostałymi wyborami";
+        String textToDisplay = "Potrzebuję znać twoją płeć,\n";
+                textToDisplay+="aby wiedzieć jak się do Ciebie zwracać.\n";
+                textToDisplay+="Proszę wybierz (m) jeżeli jesteś mężczyzną, (k) jeżeli jesteś kobietą,\n";
+                textToDisplay+="(i) jeżeli nie identyfikujesz się z pozostałymi wyborami";
 
-        postac.plec = Wybor(tekstDoWyswietlenia, "mki");
+        player.gender = Selection(textToDisplay, "mki");
 
-        WprowadzenieDlaNowejPostaci(postac.plec);
+        IntroductionForTheNewCharacter(player.gender);
         /*
             główna pętla gry
             tu gracz podejmuje decyzje którędy opuścić lokację doputy nie wybierze ścieszki prowadzącej nazewnątrz lasu
